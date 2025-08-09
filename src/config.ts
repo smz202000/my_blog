@@ -25,6 +25,7 @@ export const LOGO_IMAGE = {
   height: 46,
 };
 
+
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
