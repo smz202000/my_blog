@@ -24,46 +24,18 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <main id="main-content">
     <section id="hero">
       <h1>你好</h1>
-      <a
-        target="_blank"
-        href="/rss.xml"
-        class="rss-link"
-        aria-label="rss订阅"
-        title="RSS订阅"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" class="rss-icon"
-          ><path
-            d="M19 20.001C19 11.729 12.271 5 4 5v2c7.168 0 13 5.832 13 13.001h2z"
-          ></path><path
-            d="M12 20.001h2C14 14.486 9.514 10 4 10v2c4.411 0 8 3.589 8 8.001z"
-          ></path><circle cx="6" cy="18" r="2"></circle>
-        </svg>
-        <span class="sr-only">RSS订阅</span>
-      </a>
 
       <p>
-        AstroPaper是一个极简、响应式、可访问且对SEO友好的Astro博客主题。
-        这个主题遵循最佳实践，默认提供无障碍访问支持。默认支持明暗主题模式。
-        此外，还可以配置其他颜色方案。
+        这里是文字与思想的栖息地，也是观察世界的另一双眼睛。​
+        你会读到真诚的书评—— 不堆砌辞藻，只聊聊一本书真正打动人心的褶皱，或是那些被忽略的锋利观点；
+        遇到精心打磨的好文翻译—— 从散落全球的文字里打捞值得被看见的思考，让语言不再是认知的边界；
+        撞见闪光的书摘—— 那些突然击中你的句子，被细心收集成可以反复咀嚼的碎片；
+        还有克制的时事评论—— 不追逐喧嚣，只在热点退潮后，试着从常识与逻辑里，挖出一些更长久的答案。​
+        无论是与文字对话，还是和世界较真，这里的每一段内容，都希望成为你思绪的锚点，或是灵感的引线。
       </p>
       <p>
-        阅读博客文章或查看
-        <LinkButton
-          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          说明文档
-        </LinkButton> 获取更多信息。
+        阅读博客文章获取更多信息。
       </p>
-      {
-        // only display if at least one social link is enabled
-        socialCount > 0 && (
-          <div class="social-wrapper">
-            <div class="social-links">社交链接：</div>
-            <Socials />
-          </div>
-        )
-      }
     </section>
 
     <Hr />

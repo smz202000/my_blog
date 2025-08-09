@@ -1,12 +1,12 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
+  website: "my-blog-ezz.pages.dev/", // replace this with your deployed domain
   author: "Sat Naing",
   profile: "https://satnaing.dev/",
-  desc: "一个极简、响应式且对SEO友好的Astro博客主题。",
-  title: "AstroPaper",
-  ogImage: "astropaper-og.jpg",
+  desc: "一个高中生的个人博客",
+  title: "□的博客",
+  ogImage: "3.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 3,
