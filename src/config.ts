@@ -12,7 +12,6 @@ export const SITE: Site = {
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
-
 export const LOCALE = {
   lang: "zh-CN", // html lang code. Set this empty and default will be "en"
   langTag: ["zh-CN"], // BCP 47 Language Tags. Set this empty [] to use the environment default
@@ -24,7 +23,6 @@ export const LOGO_IMAGE = {
   width: 216,
   height: 46,
 };
-
 
 export const SOCIALS: SocialObjects = [
   {
